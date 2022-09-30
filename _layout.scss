@@ -1,0 +1,25 @@
+@mixin grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+@mixin grid-3 {
+  display: grid;
+  grid-template-columns: 0.25fr 1fr 0.45fr;
+}
+@mixin grid-1 {
+  display: grid;
+  grid-template-columns: 0.25fr 1fr;
+}
+@mixin padding {
+  border-radius: 15px;
+  padding: 1rem;
+}
+
+@mixin flex {
+  display: flex;
+  align-items: center;
+}
+
+@mixin center {
+  text-align: center;
+}

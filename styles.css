@@ -1,0 +1,118 @@
+@media (min-width: 21em) {
+  body {
+    text-align: center;
+  }
+  button {
+    border-radius: 15px;
+    padding: 1rem;
+    background-color: hsl(0deg, 0%, 8%);
+    color: hsl(0deg, 0%, 98%);
+  }
+  h1 {
+    font-weight: 700;
+  }
+  p {
+    color: hsl(0deg, 0%, 41%);
+  }
+  span {
+    color: hsl(0deg, 0%, 41%);
+  }
+  /*classes*/
+  .attribution-a {
+    color: hsl(0deg, 0%, 0%);
+  }
+  .attribution {
+    font-size: 11px;
+  }
+  .hero-paragraph {
+    color: hsl(0deg, 0%, 41%);
+    width: 90%;
+  }
+  .attribution,
+.g-div,
+.partner-brands {
+    margin: 2rem 0 0;
+  }
+  .h-img {
+    width: 100%;
+  }
+  a {
+    text-decoration: none;
+    color: hsl(0deg, 0%, 41%);
+  }
+  .further button {
+    margin-left: 1.125rem;
+    background-color: hsl(0deg, 0%, 98%);
+    color: hsl(0deg, 0%, 8%);
+    transition: 1s;
+  }
+  .further button:hover {
+    background-color: hsl(0deg, 0%, 8%);
+    color: hsl(0deg, 0%, 98%);
+  }
+  .image-and-p {
+    display: flex;
+    align-items: center;
+  }
+  .image-and-p img {
+    margin: 0.2rem 0.5rem 0 0;
+    float: left;
+  }
+  .partner-brands {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .shift {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 38rem) {
+  /*Global classes*/
+  body {
+    text-align: left;
+  }
+  /*Grid*/
+  .gg-div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 2rem 0 0 5rem;
+  }
+  .g-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  .hero-img {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+  .further {
+    margin: 0 auto;
+  }
+  .nav-p {
+    margin: 0 1rem 0;
+  }
+  .p-b {
+    margin: 0 0.5rem 0;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    margin: auto;
+  }
+  .further {
+    display: flex;
+    align-items: center;
+    align-items: center;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    margin-left: 2rem;
+  }
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Intro section with dropdown navigation</title>
+  <!--bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <!--custom css-->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <div class="logo">
+          <img src="images/logo.svg" alt="">
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown"
+        aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Features
+            </a>
+            <ul class="dropdown-menu">
+              <li class="image-and-p">
+                <a class="dropdown-item" href="#">
+                  <img src="images/icon-todo.svg" alt="" class="small-img">
+                  <p>Todo list</p>
+                </a>
+              </li>
+
+              <li class="image-and-p">
+                <a class="dropdown-item" href="#">
+                  <img src="images/icon-calendar.svg" alt="" class="small-img">
+                  <p>Calender</p>
+                </a>
+              </li>
+
+              <li class="image-and-p">
+                <a class="dropdown-item" href="#">
+                  <img src="images/icon-reminders.svg" alt="" class="small-img">
+                  <p>Reminder</p>
+                </a>
+              </li>
+
+              <li class="image-and-p">
+                <a class="dropdown-item" href="#">
+                  <img src="images/icon-planning.svg" alt="" class="small-img">
+                  <p>Planning</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Company
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">History</a></li>
+              <li><a class="dropdown-item" href="#">Our Team</a></li>
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="navbar-nav">
+          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">Careers</a>
+          <a class="nav-link" href="#">
+            <div class="further">
+              <a href="">Login</a>
+              <button>Register</button>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+  <div class="gg-div">
+    <div class="hero-img">
+      <img class="h-img" src="images/image-hero-mobile.png">
+    </div>
+
+    <div class="g-div">
+      <h1>Make remote work</h1>
+      <p class="hero-paragraph">
+        Get your team in sync, no matter your location. Streamline processes,
+        create team rituals, and watch productivity soar.
+      </p>
+      <button>Learn more</button>
+
+      <div class="partner-brands">
+        <img class="p-b" src="images/client-databiz.svg" alt="">
+        <img class="p-b" src="images/client-audiophile.svg" alt="">
+        <img class="p-b" src="images/client-meet.svg" alt="">
+        <img class="p-b" src="images/client-maker.svg" alt="">
+      </div>
+    </div>
+
+
+  </div>
+
+  <div>
+
+    <!--bootstrap js-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"></script>
+
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!--custom js-->
+    <script src="main.js"></script>
+</body>
+
+</html>

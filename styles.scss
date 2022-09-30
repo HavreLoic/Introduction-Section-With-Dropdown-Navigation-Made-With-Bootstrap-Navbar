@@ -1,0 +1,135 @@
+@import "variables";
+@import "layout";
+
+@media (min-width: 21em) {
+  body {
+    @include center;
+  }
+
+  button {
+    @include padding;
+    background-color: $paragraphs-color;
+    color: $almost-white;
+  }
+
+  h1 {
+    font-weight: map-get($font-weight, bigger);
+  }
+
+  p {
+    color: $gray;
+  }
+
+  span {
+    color: $gray;
+  }
+  /*classes*/
+
+  .attribution-a {
+    color: $attribution-a;
+  }
+
+  .attribution {
+    font-size: $attribution;
+  }
+
+  .hero-paragraph {
+    color: $gray;
+    width: $width;
+  }
+  .attribution,
+  .g-div,
+  .partner-brands {
+    margin: $margin;
+  }
+
+  .h-img {
+    width: $width100;
+  }
+  a {
+    text-decoration: none;
+    color: $gray;
+  }
+  .further button {
+    margin-left: $font-size;
+    background-color: $almost-white;
+    color: $paragraphs-color;
+    transition: 1s;
+  }
+
+  .further button:hover {
+    background-color: $paragraphs-color;
+    color: $almost-white;
+  }
+  .image-and-p {
+    @include flex;
+
+    img {
+      margin: 0.2rem 0.5rem 0 0;
+      float: left;
+    }
+  }
+  .partner-brands {
+    @include flex;
+    justify-content: space-between;
+  }
+
+  .shift {
+    @include flex;
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 38rem) {
+  /*Global classes*/
+  body {
+    text-align: left;
+  }
+
+  /*Grid*/
+  .gg-div {
+    @include grid;
+    margin: $margin2;
+  }
+
+  .g-div {
+    @include flex;
+    flex-direction: column;
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .hero-img {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+
+  .further {
+    margin: 0 auto;
+  }
+
+  .nav-p {
+    margin: 0 1rem 0;
+  }
+
+  .p-b {
+    margin: 0 0.5rem 0;
+  }
+}
+//Custom bootstrap style
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    margin: auto;
+  }
+
+  .further {
+    @include flex;
+    align-items: center;
+  }
+
+  .navbar-expand-lg .navbar-collapse {
+    margin-left: 2rem;
+  }
+}
